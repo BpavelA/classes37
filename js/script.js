@@ -37,8 +37,10 @@ const classes = [document.querySelector("#school21-select"), document.querySelec
 function makeHidden() {
  const schoolLinks = document.querySelectorAll(".links__class");
  const filesFields = document.querySelectorAll(".files");
+ const lists = document.querySelectorAll(".list");
  schoolLinks.forEach(link => link.classList.add("hidden"));
  filesFields.forEach(field => field.classList.add("hidden"));
+ lists.forEach(list => list.classList.add("hidden"));
 };
 
 classes.forEach(clas => clas.addEventListener("change", () => {
