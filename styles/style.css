@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 7rem;
+}
+
+.container {
+  padding-top: 3rem;
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  border: .1rem solid rgba(0, 0, 0, 0.05);
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  width: 30rem;
+}
+
+header {
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.main__title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.access {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  
+}
+
+.access-intro {
+  margin-bottom: 1.5rem;
+}
+
+.access-input {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2.7rem;
+  width: 20rem;
+}
+
+.access-btn {
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.preamble {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 2;
+}
+
+.title {
+font-weight: 600;
+}
+
+.important {
+  animation: appearance 1.5s linear;
+}
+
+@keyframes appearance {
+  0% {opacity: 0;}
+  50% {opacity: 0.5;}
+  100% {opacity: 1;}
+}
+
+
+.important__title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+hr {
+  margin-bottom: 2rem;
+}
+
+.important__list {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  padding: 0 5rem;
+}
+
+.important__text {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding: 0 5rem;
+}
+
+select {
+  font-size: 2.7rem;
+  margin-bottom: 2rem;
+}
+
+.links__class, .files {
+  font-size: 2rem;
+}
+
+.links__title, .text {
+  margin-bottom: 2rem;
+}
+
+.acts-list {
+  list-style: disc inside;
+  padding-top: 1rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.application-forms__text {
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.hidden {
+  display: none;
+}
+
+.school21, .school22 {
+  padding-left: 5rem;
+}
+
+#school21-select, #school22-select, .school-container  {
+  text-align: center;
+}

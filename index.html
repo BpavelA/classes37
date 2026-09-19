@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Проект детского технопарка Кванториум.Новатория Ивановской области"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="js/script.js" defer></script>
+    <title>Инженерные классы 2026-2027 учебного года</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="img/logo.png" alt="Логотип Кванториума" class="logo" />
+      </header>
+      <main>
+        <h1 class="main__title">Инженерные классы 2026-2027 учебного года</h1>
+        <section class="access">
+          <label class="access-intro" for="code"
+            >Введите кодовое слово для отображения информации</label
+          >
+          <input class="access-input" type="password" name="code" id="code" />
+          <input
+            class="access-btn"
+            type="button"
+            value="Отправить"
+            id="submitCode"
+          />
+        </section>
+        <section class="important hidden">
+          <p class="preamble"><span class="title">Здравствуйте, уважаемые родители!</span> <br>
+            Кванториум приглашает ваших ребят на программы инженерных классов в 2026-2027 учебном году. <br />
+            Начало обучения - 15 сентября.
+          </p>
+          <hr>
+          <h3 class="important__title">ВАЖНО</h3>
+          <ol class="important__list">
+            <li class="list-item">
+              Заявки на обучение направляются через портал
+              <a
+                href="https://р37.навигатор.дети/"
+                target="_blank"
+                title="Ссылка на Навигатор дополнительного образования Ивановской области"
+                >Навигатор</a
+              >.
+            </li>
+            <li class="list-item">
+              Можно подать заявления на несколько программ в рамках расписания
+              класса.
+            </li>
+            <li class="list-item">
+              Заявка на программу состоит из двух частей (бюджет +
+              соцсертификат). Место на направлении предоставляется только при
+              наличии заявок на обе части (часть 1 + часть 2).
+            </li>
+            <li class="list-item">
+              Списки по программам утверждаются на основании времени подачи
+              заявки в Навигаторе. Промежуточные списки будут периодически
+              размещаться онлайн в виде xlsx файла в папке с бланками заявлений.
+            </li>
+            <li class="list-item">
+              При попадании в списки на более чем одну программу необходимо
+              будет сделать выбор в пользу одной из них.
+            </li>
+            <li class="list-item">
+              При подаче заявлений на более чем одну программу приоритет заявки
+              определяется по id заявки – меньшее id (т.е. более ранняя по
+              времени) значит более приоритетная.
+            </li>
+            <li class="list-item">
+              При подаче заявления в Навигаторе в поле особых условий необходимо
+              написать номер школы.
+            </li>
+            <li class="list-item">
+              Для зачисления в группу в Кванториум предоставляется следующий
+              <span class="underline">комплект документов</span> (обязательно в
+              первый день занятий):
+              <ul class="acts-list">
+                <li>
+                  снилс и паспорт заявителя (того, кто подавал заявку в
+                  Навигаторе) (копии)
+                </li>
+                <li>
+                  снилс и свидетельство о рождении (или паспорт) ребенка (копии)
+                </li>
+                <li>
+                  подписанное заявление на зачисление (актуальной датой до 14
+                  сентября), бланки на каждое направление прилагаются
+                </li>
+              </ul>
+            </li>
+          </ol>
+          <hr>
+          <p class="important__text">
+            По вопросам, связанным с подачей заявок на программу в Навигаторе,
+            можно обращаться к методисту кванториума
+            <a
+              href="https://vk.ru/pborodenkov"
+              target="_blank"
+              title="Ссылка на профиль в ВК"
+              >Бороденкову Павлу Андреевичу</a
+            >
+          </p>
+          <hr>
+        </section>
+        <section class="school21 hidden">
+          <div class="school-container">
+            <select id="school21-select">
+              <option value="">-- Выберите класс --</option>
+              <option value="cl21_7a">7 классы</option>
+              <option value="cl21_8a">8 классы</option>
+            </select>
+          </div>
+          <div id="school21-links">
+            <div class="links__class cl21_7a hidden">
+              <p class="text underline">
+                Ссылки на программы на портале Навигатор:
+              </p>
+              <p class="links__title">7а класс: понедельник 12:45-14:15</p>
+              <p class="link">&#9989;
+                <a
+                  href="https://р37.навигатор.дети/program/11123-inzhenernyi-klass-promyshlennogo-dizaina"
+                  >Программа «Инженерный класс промышленного дизайна
+                  (Графический дизайн)»
+                </a>
+                - 12 мест
+              </p>
+              <p class="link">&#9989;
+                <a
+                  href="https://р37.навигатор.дети/program/11120-inzhenernyi-klass-vysokikh-tekhnologii-khaitek"
+                  >Программа «Инженерный класс высоких технологий (Хайтек)»</a
+                >
+                - 9 мест
+              </p>
+              <p class="link">&#9989;
+                <a
+                  href="https://р37.навигатор.дети/program/11123-inzhenernyi-klass-promyshlennogo-dizaina"
+                  >Программа «Инженерный класс промышленного дизайна
+                  (3D-моделирование)»
+                </a>
+                - 12 мест
+              </p>
+            </div>
+            <div class="links__class cl21_8a hidden">
+              <p class="text underline">
+                Ссылки на программы на портале Навигатор:
+              </p>
+              <p class="links__title">8а класс: четверг 12:45-14:15</p>
+              <p class="link">&#9989;
+                <a
+                  href="https://р37.навигатор.дети/program/11120-inzhenernyi-klass-vysokikh-tekhnologii-khaitek"
+                  >Программа «Инженерный класс высоких технологий (Хайтек)»
+                </a>
+                - 9 мест
+              </p>
+              <p class="link">&#9989;
+                <a
+                  href="https://р37.навигатор.дети/program/11121-inzhenernyi-klass-informatsionnykh-tekhnologii"
+                  >Программа «Инженерный класс информационных технологий»</a
+                >
+                - 12 мест
+              </p>
+              <p class="link">&#9989;
+                <a
+                  href="https://р37.навигатор.дети/program/11123-inzhenernyi-klass-promyshlennogo-dizaina"
+                  >Программа «Инженерный класс промышленного дизайна
+                  (Графический дизайн)»
+                </a>
+                - 12 мест
+              </p>
+            </div>
+          </div>
+          <div class="files cl21_7a hidden">
+            <p class="application-forms__text">
+              Бланки заявлений на программы можно загрузить по ссылкам ниже:
+            </p>
+            <p class="link">&#128190;
+              <a href="appendix/21/21 лицей_7 класс_3D-моделирование.pdf"
+                >21 лицей_7 класс_3D-моделирование</a
+              >
+            </p>
+            <p class="link">&#128190;
+              <a href="appendix/21/21 лицей_7 класс_Графический дизайн.pdf"
+                >21 лицей_7 класс_Графический дизайн</a
+              >
+            </p>
+            <p class="link">&#128190;
+              <a href="appendix/21/21 лицей_7 класс_Хайтек.pdf"
+                >21 лицей_7 класс_Хайтек</a
+              >
+            </p>
+          </div>
+          <div class="files cl21_8a hidden">
+            <p class="application-forms__text">
+              Бланки заявлений на программы можно загрузить по ссылкам ниже:
+            </p>
+            <p class="link">&#128190;
+              <a href="appendix/21/21 лицей_8 класс_IT.pdf"
+                >21 лицей_8 класс_IT</a
+              >
+            </p>
+            <p class="link">&#128190;
+              <a href="appendix/21/21 лицей_8 класс_Графический дизайн.pdf"
+                >21 лицей_8 класс_Графический дизайн</a
+              >
+            </p>
+            <p class="link">&#128190;
+              <a href="appendix/21/21 лицей_8 класс_Хайтек.pdf"
+                >21 лицей_8 класс_Хайтек</a
+              >
+            </p>
+          </div>
+        </section>
+        <section class="school22 hidden">
+          <div class="school-container">
+            <select id="school22-select">
+              <option value="">-- Выберите класс --</option>
+              <option value="cl22_5">5 классы</option>
+              <option value="cl22_6">6 классы</option>
+              <option value="cl22_7">7 классы</option>
+            </select>
+          </div>
+          <div id="school22-links">
+            <div class="links__class cl22_6 hidden">
+              <p class="text underline">
+                Ссылки на программы на портале Навигатор:
+              </p>
+              <p class="links__title">6 классы: понедельник 14:20-16:00</p>
+              <p class="link">&#9989;
+                <a
+                  href="https://р37.навигатор.дети/program/11121-inzhenernyi-klass-informatsionnykh-tekhnologii "
+                  >Программа «Инженерный класс информационных технологий»</a
+                >
+                - 12 мест
+              </p>
+              <p class="link">&#9989;
+                <a
+                  href="https://р37.навигатор.дети/program/11123-inzhenernyi-klass-promyshlennogo-dizaina"
+                  >Программа «Инженерный класс промышленного дизайна
+                  (3D-моделирование)»</a
+                >
+                - 12 мест
+              </p>
+              <p class="link">&#9989;
+                <a
+                  href="https://р37.навигатор.дети/program/11123-inzhenernyi-klass-promyshlennogo-dizaina"
+                  >Программа «Инженерный класс промышленного дизайна
+                  (Графический дизайн)»
+                </a>
+                - 12 мест
+              </p>
+            </div>
+            <div class="links__class cl22_7 hidden">
+              <p class="text underline">
+                Ссылки на программы на портале Навигатор:
+              </p>
+              <p class="links__title">7 классы: вторник 14:20-16:00</p>
+              <p class="link">&#9989;
+                <a
+                  href="https://р37.навигатор.дети/program/11119-inzhenernyi-klass-bpla-aero"
+                  >Программа «Инженерный класс БПЛА (Аэро)»
+                </a>
+                - 12 мест
+              </p>
+              <p class="link">&#9989;
+                <a
+                  href="https://р37.навигатор.дети/program/11124-inzhenernyi-klass-robototekhniki "
+                  >Программа «Инженерный класс робототехники»</a
+                >
+                - 12 мест
+              </p>
+              <p class="link">&#9989;
+                <a
+                  href="https://р37.навигатор.дети/program/11123-inzhenernyi-klass-promyshlennogo-dizaina"
+                  >Программа «Инженерный класс промышленного дизайна
+                  (3D-моделирование)»
+                </a>
+                - 12 мест
+              </p>
+            </div>
+            <div class="links__class cl22_5 hidden">
+              <p class="text underline">
+                Ссылки на программы на портале Навигатор:
+              </p>
+              <p class="links__title">5 классы: четверг 14:20-16:00</p>
+              <p class="link">&#9989;
+                <a
+                  href="https://р37.навигатор.дети/program/11120-inzhenernyi-klass-vysokikh-tekhnologii-khaitek "
+                  >Программа «Инженерный класс высоких технологий (Хайтек)»
+                </a>
+                - 9 мест
+              </p>
+              <p class="link">&#9989;
+                <a
+                  href="https://р37.навигатор.дети/program/11121-inzhenernyi-klass-informatsionnykh-tekhnologii"
+                  >Программа «Инженерный класс информационных технологий»</a
+                >
+                - 12 мест
+              </p>
+              <p class="link">&#9989;
+                <a
+                  href="https://р37.навигатор.дети/program/11123-inzhenernyi-klass-promyshlennogo-dizaina"
+                  >Программа «Инженерный класс промышленного дизайна
+                  (Графический дизайн)»
+                </a>
+                - 12 мест
+              </p>
+            </div>
+          </div>
+          <div class="files cl22_5 hidden">
+            <p class="application-forms__text">
+              Бланки заявлений на программы можно загрузить по ссылкам ниже:
+            </p>
+            <p class="link">&#128190;
+              <a href="appendix/22/22 лицей_5 классы_IT.pdf"
+                >22 лицей_5 классы_IT</a
+              >
+            </p>
+            <p class="link">&#128190;
+              <a href="appendix/22/22 лицей_5 классы_Графический дизайн.pdf"
+                >22 лицей_5 классы_Графический дизайн</a
+              >
+            </p>
+            <p class="link">&#128190;
+              <a href="appendix/22/22 лицей_5 классы_Хайтек.pdf"
+                >22 лицей_5 классы_Хайтек</a
+              >
+            </p>
+          </div>
+          <div class="files cl22_6 hidden">
+            <p class="application-forms__text">
+              Бланки заявлений на программы можно загрузить по ссылкам ниже:
+            </p>
+            <p class="link">&#128190;
+              <a href="appendix/22/22 лицей_6 классы_3D-моделирование.pdf"
+                >22 лицей_6 классы_3D-моделирование</a
+              >
+            </p>
+            <p class="link">&#128190;
+              <a href="appendix/22/22 лицей_6 классы_IT.pdf"
+                >22 лицей_6 классы_IT</a
+              >
+            </p>
+            <p class="link">&#128190;
+              <a href="appendix/22/22 лицей_6 классы_Графический дизайн.pdf"
+                >22 лицей_6 классы_Графический дизайн</a
+              >
+            </p>
+          </div>
+          <div class="files cl22_7 hidden">
+            <p class="application-forms__text">
+              Бланки заявлений на программы можно загрузить по ссылкам ниже:
+            </p>
+            <p class="link">&#128190;
+              <a href="appendix/22/22 лицей_7 классы_3D-моделирование.pdf"
+                >22 лицей_7 классы_3D-моделирование</a
+              >
+            </p>
+            <p class="link">&#128190;
+              <a href="appendix/22/22 лицей_7 классы_Аэро.pdf"
+                >22 лицей_7 классы_Аэро</a
+              >
+            </p>
+            <p class="link">&#128190;
+              <a href="appendix/22/22 лицей_7 классы_Робототехника.pdf"
+                >22 лицей_7 классы_Робототехника</a
+              >
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
