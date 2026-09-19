@@ -120,7 +120,7 @@ select {
   margin-bottom: 2rem;
 }
 
-.links__class, .files {
+.links__class, .files, .list {
   font-size: 2rem;
 }
 
