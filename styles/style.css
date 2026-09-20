@@ -11,7 +11,7 @@ html {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding: 7rem 0 ;
+  padding: 7rem 0;
 }
 
 body {
@@ -20,7 +20,6 @@ body {
   background-size: cover;
 }
 
-
 .container {
   background-color: white;
   padding: 4rem 0;
@@ -28,7 +27,7 @@ body {
   margin: 0 auto;
   font-size: 1.5rem;
   border-radius: 1rem;
-  box-shadow: .5rem .5rem 2rem rgb(198, 191, 191);
+  box-shadow: 0.5rem 0.5rem 2rem rgb(198, 191, 191);
 }
 
 .logo {
@@ -58,7 +57,6 @@ section {
   align-items: center;
   /* justify-content: center; */
   gap: 1rem;
-  
 }
 
 .access-intro {
@@ -88,7 +86,7 @@ section {
 }
 
 .title {
-font-weight: 600;
+  font-weight: 600;
 }
 
 .important {
@@ -96,9 +94,15 @@ font-weight: 600;
 }
 
 @keyframes appearance {
-  0% {opacity: 0;}
-  50% {opacity: 0.5;}
-  100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .important__title {
@@ -129,12 +133,15 @@ select {
   margin-bottom: 2rem;
 }
 
-.links__class, .files, .list {
+.links__class,
+.files,
+.list {
   padding: 0 5rem;
   font-size: 2rem;
 }
 
-.links__title, .text {
+.links__title,
+.text {
   margin-bottom: 2rem;
 }
 
@@ -157,6 +164,14 @@ select {
   display: none;
 }
 
-#school21-select, #school22-select, .school-container  {
+#school21-select,
+#school22-select,
+.school-container {
   text-align: center;
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 50%;
+  }
 }
