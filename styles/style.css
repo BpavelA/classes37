@@ -175,3 +175,14 @@ select {
     font-size: 50%;
   }
 }
+
+.list img {
+  width: 100%;
+  margin-bottom: 5%;
+  transition: .5s all;
+  cursor:pointer;
+}
+
+.list img:hover {
+  transform: scale(102%);
+}
