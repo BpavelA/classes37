@@ -89,6 +89,14 @@ section {
   font-weight: 600;
 }
 
+.text-green {
+  color: rgb(11, 110, 11);
+}
+
+.text-orange {
+  color: rgb(234, 154, 63);
+}
+
 .important {
   animation: appearance 1.5s linear;
 }
